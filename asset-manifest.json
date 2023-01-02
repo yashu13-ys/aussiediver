@@ -1,0 +1,21 @@
+{
+  "files": {
+    "main.css": "/aussiediver/static/css/main.ab756a0d.css",
+    "main.js": "/aussiediver/static/js/main.dc91b9ee.js",
+    "static/js/787.65afeaff.chunk.js": "/aussiediver/static/js/787.65afeaff.chunk.js",
+    "static/media/slider1.jpg": "/aussiediver/static/media/slider1.b0d83c3eddb257d605c3.jpg",
+    "static/media/secondSectionBg.png": "/aussiediver/static/media/secondSectionBg.ba8df00a1975a8970bc8.png",
+    "static/media/fourthSection.png": "/aussiediver/static/media/fourthSection.2f62b6e53e7e7e34f549.png",
+    "static/media/slider3.png": "/aussiediver/static/media/slider3.07ee19f0935f8e1e4708.png",
+    "static/media/slider2.png": "/aussiediver/static/media/slider2.6e68210f42dc7a2280c1.png",
+    "static/media/divingCommunity.png": "/aussiediver/static/media/divingCommunity.cfe533a8b95a83b3a03a.png",
+    "index.html": "/aussiediver/index.html",
+    "main.ab756a0d.css.map": "/aussiediver/static/css/main.ab756a0d.css.map",
+    "main.dc91b9ee.js.map": "/aussiediver/static/js/main.dc91b9ee.js.map",
+    "787.65afeaff.chunk.js.map": "/aussiediver/static/js/787.65afeaff.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.ab756a0d.css",
+    "static/js/main.dc91b9ee.js"
+  ]
+}
