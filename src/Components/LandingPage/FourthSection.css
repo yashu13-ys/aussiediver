@@ -1,0 +1,31 @@
+.fourthSection{
+    height: 900px;
+    /* border: 1px solid red; */
+    width: 100%;
+    background-image: url(../../../public/Images/fourthSection.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.fourthSectionBgBlur{
+    /* margin-top: 185px; */
+    position: absolute;
+    width: 900px;
+    height: 900px;
+    /* left: 187px; */
+    /* top: 2533px; */
+    background: linear-gradient(354.92deg, #000000 -6.04%, rgba(0, 0, 0, 0) 85.57%);
+    transform: rotate(90deg);
+}
+@media screen and (max-width: 1000px) { 
+    .fourthSectionBgBlur{
+        display: none;
+    }
+    .fourthSection{
+        height: auto;
+        /* border: 1px solid red; */
+        width: 100%;
+        background-image: url(../../../public/Images/fourthSection.png);
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+}

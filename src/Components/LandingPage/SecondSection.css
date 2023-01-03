@@ -1,0 +1,107 @@
+.secondSection{
+    height: 900px;
+    /* border: 1px solid red; */
+    width: 100%;
+    background-image: url(../../../public/Images/secondSectionBg.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    z-index: 1;
+}
+.secondSectionContainerDiv{
+    height: 100%;
+    width: 90%;
+    margin: 0 auto;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    flex-direction: column;
+    
+}
+.secondSectionContainerDiv h1{
+font-weight: 700;
+font-size: 60px;
+letter-spacing: -0.02em;
+color: #FFFFFF;
+z-index: 2;
+}
+.secondSectionContainerDiv p{
+    width: 480px;
+    font-size: 17px;
+    font-weight: 400;
+    line-height: 25px;
+    z-index: 2;
+}
+.readMoreBtn{
+    border-radius: 0px;
+    padding: 10px 25px;
+    color: black;
+    background: white;
+    font-size: 18px;
+    font-weight: 700;
+    margin-top: 30px;
+    border: none;
+}
+.readMoreBtn:hover{
+    border-radius: 0px;
+    padding: 10px 25px;
+    color: white;
+    background: #25afe8;
+    font-size: 18px;
+    font-weight: 700;
+border: none;
+margin-top: 30px;
+}
+.secondSectionBgBlur{
+    position: absolute;
+    background: linear-gradient(354.92deg, #000000 -6.04%, rgba(0, 0, 0, 0) 85.57%);
+    transform: rotate(90deg);
+    width: 900px;
+    height: 100%;
+    z-index: 0;
+    right: 48%;
+}
+@media screen and (max-width: 1000px) {
+    .secondSectionContainerDiv{
+        height: auto;
+        width: 90%;
+        margin: 0 auto;
+        color: white;
+        display: flex;
+        justify-content: center;
+        align-items: flex-start;
+        flex-direction: column;
+        padding: 100px 0px;
+    }
+    .secondSectionContainerDiv h1{
+    font-weight: 700;
+    font-size: 32px;
+    letter-spacing: -0.02em;
+    color: #FFFFFF;
+    z-index: 2;
+    }
+    .secondSectionContainerDiv p{
+        width: auto;
+        font-size: 17px;
+        font-weight: 400;
+        line-height: 25px;
+        z-index: 2;
+    }
+    .secondSection{
+        height: auto;
+        /* border: 1px solid red; */
+        width: 100%;
+        background-image: url(../../../public/Images/secondSectionBg.png);
+        background-repeat: no-repeat;
+        background-size: cover;
+        z-index: 1;
+    }
+    .secondSectionBgBlur{
+        position: absolute;
+        background: linear-gradient(354.92deg, #000000 -6.04%, rgba(0, 0, 0, 0) 85.57%);
+        transform: rotate(90deg);
+        width: 88%;
+        height: -webkit-fill-available;
+        z-index: 0;
+    }
+  }

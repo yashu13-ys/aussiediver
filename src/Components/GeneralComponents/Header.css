@@ -1,0 +1,94 @@
+.headerDiv{
+    /* height: 40px; */
+    padding: 12px;
+    width: 100%;
+    background-color: #25afe8;
+}
+.containerDiv{
+    width: 90%;
+    margin: 0 auto;
+    /* border: 1px solid red; */
+    height: 100%;
+}
+.address{
+    height: 100%;
+}
+.headerContact{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    color: white;
+    gap: 35px;
+    font-size: 12px;
+    font-weight: 700;
+}
+.headerContact div{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 10px;
+}
+.socialLogos{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    gap: 15px;
+}
+.mainHeaderContainer{
+    width: 100%;
+    /* height: 78px; */
+    /* border: 1px solid red; */
+    padding: 15px 0px;
+}
+.mainLogo{
+    width: 70%;
+}
+.headerLinks{
+    display: flex;
+    gap: 40px;
+    justify-content: flex-end;
+    align-items: center;
+    font-size: 15px;
+    font-weight: 500;
+}
+.headerLinks div{
+    cursor: pointer;
+}
+#dropdown-basic{
+    background: none;
+    color: black;
+    border: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 15px;
+    font-weight: 500;
+    padding: 0;
+}
+.dropdown-toggle::after{
+    content: none !important;
+}
+@media screen and (max-width: 1000px) {
+    .headerContact{
+        display: flex !important;
+        justify-content: center !important; 
+        align-items: center !important;
+        color: white;
+        gap: 5px !important;
+        font-size: 12px;
+        font-weight: 700;
+        flex-direction: column;
+    }
+    .socialLogos{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 15px;
+        margin-top: 10px !important;
+    }
+    .mainLogoDiv{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+  }
